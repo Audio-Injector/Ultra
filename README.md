@@ -24,7 +24,7 @@ dtoverlay=audioinjector-ultra
 ```
 sudo rpi-update
 # firstly disable PWM audio
-sudo bash -c "sed -i \"s/^\s*dtparam=audio/#dtparam=audio/\" /boot/config.txt"
+sed -i \"s/^\s*dtparam=audio/#dtparam=audio/\" /boot/config.txt
 # now check to see the correct device tree overlay is loaded ...
 cnt=`grep -c audioinjector-ultra /boot/config.txt`
 if [ "$cnt" -eq "0" ]; then
