@@ -28,8 +28,8 @@ sudo bash -c "sed -i \"s/^\s*dtparam=audio/#dtparam=audio/\" /boot/config.txt"
 # now check to see the correct device tree overlay is loaded ...
 cnt=`grep -c audioinjector-ultra /boot/config.txt`
 if [ "$cnt" -eq "0" ]; then
-  sudo bash -c "echo '# enable the AudioInjector.net sound card
-  dtoverlay=audioinjector-ultra' >> /boot/config.txt"
+  echo '# enable the AudioInjector.net sound card
+  dtoverlay=audioinjector-ultra' >> /boot/config.txt
 fi
 ```
 
