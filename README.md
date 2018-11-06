@@ -43,3 +43,8 @@ Check out our other products :
 http://audioinjector.net
 
 https://shop.audioinjector.net
+
+# Spectrogram example
+
+Thanks to Hystrix for this spectrogram ...
+![Hystrix spectrogram](https://github.com/Audio-Injector/Ultra/raw/master/hystrix.spectrogram.JPG)
