@@ -1,3 +1,5 @@
+[If you want to discuss these products, or topics around hearing, acoustics and audio, join the audio injector email list.](https://lists.audioinjector.net/mailman/listinfo/people)
+
 # Auto Setup
 
 Coming soon !
